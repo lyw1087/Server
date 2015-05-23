@@ -3,10 +3,10 @@ var mysql = require('mysql');
 var router = express.Router();
 
 var conn = mysql.createConnection({
-	user: 'junghan',
-	host: 'sopt.cwzn9rhglsgx.ap-northeast-1.rds.amazonaws.com',
-	password: 'sopt-junghan',
-	database: 'sopt'
+	user: 'lyw1087',
+	host: 'ec2-52-24-209-110.us-west-2.compute.amazonaws.com',
+	password: 'duddn457',
+	database: 'default_schema'
 });
 
 router.get('/:content_id', function(req, res, next) {
